@@ -25,7 +25,8 @@ header {
 }
 
 .header--banner--logo {
-  height: 20px;
+  height: 30px;
+  width: 40px;
 }
 
 .header--banner--logo img {
