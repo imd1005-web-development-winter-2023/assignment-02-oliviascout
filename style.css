@@ -61,10 +61,11 @@ header {
   align-items: center;
   justify-content: center;
 
-  width: 1500px;
-  height: 1000px;
+  width: 100%;
+  height: 900px;
 
   object-fit: cover;
+  object-position: bottom;
 
   background-image: url("images/powerlines.JPG");
 }
