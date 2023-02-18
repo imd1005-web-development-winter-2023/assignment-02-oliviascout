@@ -18,13 +18,13 @@ header {
   background-color: rgb(139, 139, 212);
 }
 
-.header--nav {
+.header--banner--nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.header--nav ul {
+.header--banner--nav ul {
   display: flex;
   gap: 30px;
 
