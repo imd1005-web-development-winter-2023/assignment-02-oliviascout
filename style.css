@@ -43,6 +43,7 @@ header {
   list-style-type: none;
   margin: 0px;
   padding: 10px;
+  padding-left: 20px;
 }
 
 .header--banner--nav ul li a {
