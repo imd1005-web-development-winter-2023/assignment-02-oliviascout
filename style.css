@@ -132,10 +132,11 @@ header {
 
 .middle--button p {
   align-self: center;
-  margin-top:
+  margin-top: 30px;
 }
 
 .middle--gallery {
+  margin-top: 20px;
   margin-right: 50px;
 }
 
@@ -143,11 +144,10 @@ header {
   display: grid;
   list-style-type: none;
   align-content: center;
-  margin: 50%;
   padding: 5px 5px 5px 5px;
 
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 60px);
+  grid-template-rows: repeat(4, 60px);
   gap: 10px;
 }
 
@@ -226,6 +226,13 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+.footer--banner--nav ul {
+  display: flex;
+
+  gap: 70px;
+  list-style-type: none;
 }
 
 .header--banner--nav ul li a {
