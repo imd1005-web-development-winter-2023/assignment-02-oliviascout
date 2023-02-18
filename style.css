@@ -23,6 +23,8 @@ header {
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
+  
+  background-color: #565CAE;
 }
 
 .header--banner--logo {
