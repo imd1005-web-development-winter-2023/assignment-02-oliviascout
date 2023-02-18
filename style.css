@@ -2,24 +2,24 @@
   CSS File
 */
 
-.page{
+.header--page {
   min-width: 100%;
   min-height: 100%;
 }
 
-header{
+header {
   padding: 20px 20px;
   color:brown;
   background-color: blue;
 }
 
-header--nav{
+header--nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header--nav ul{
+header--nav ul {
   display: flex;
   gap: 30px;
 
