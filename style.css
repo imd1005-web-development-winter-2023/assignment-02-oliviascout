@@ -73,7 +73,7 @@ header {
   object-position: bottom;
 
   background-image: url("images/powerlines.JPG");
-  background-position: top;
+  background-position: bottom;
 }
 
 .welcome--box {
@@ -140,7 +140,7 @@ header {
 
 .middle--gallery {
   margin-top: 20px;
-  margin-right: 10%;
+  margin-right: 5%;
 
   vertical-align: center;
   height: 700px;
@@ -155,8 +155,8 @@ header {
 
   vertical-align: center;
 
-  height: 700px;
-  width: 700px;
+  height: 800px;
+  width: 1000px;
 
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: repeat(4, 100px);
