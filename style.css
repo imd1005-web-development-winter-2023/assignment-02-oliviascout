@@ -14,7 +14,7 @@
 
 header {
   padding: 10px 10px;
-  background-color: #565CAE;
+  background-color:brown;
 }
 
 .header--banner {
@@ -23,7 +23,7 @@ header {
   flex-wrap: wrap;
   align-items: stretch;
   justify-content: space-between;
-  
+
   background-color: #565CAE;
 }
 
