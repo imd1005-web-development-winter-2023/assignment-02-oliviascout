@@ -60,6 +60,9 @@ header {
   display: flex;
   align-items: center;
 
+  width:auto;
+  height: auto;
+
   background-image: url("images/powerlines.JPG");
 }
 
@@ -78,10 +81,11 @@ header {
   color:#E7E6FF;
 }
 
-.welcome--box--title {
+.welcome--box--text h2 {
   font-size: 1.5rem;
 }
 
-.welcome--box--title{
-  font-size: 0.5rem;
+.welcome--box--text p {
+  font-size: 1rem;
 }
+
