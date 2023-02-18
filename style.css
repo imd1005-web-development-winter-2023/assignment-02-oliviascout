@@ -119,20 +119,24 @@ header {
   margin-left: 70px;
   margin-top: 50px;
   width: 15%;
-  height: 250px;
-  padding: 10px 10px 10px 10px;
+  height: 200px;
+  padding: 20px 10px 10px 10px;
   border-radius: 5px;
 
   text-align: center;
-  vertical-align: center;
 
   background-color: #070754;
   color: #E7E6FF;
   font-size: 1.5rem;
 }
 
+.middle--button p {
+  align-self: center;
+  margin-top:
+}
+
 .middle--gallery {
-  margin-right: 10px;
+  margin-right: 50px;
 }
 
 .middle--gallery--grid {
@@ -144,7 +148,7 @@ header {
 
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  gap: 1rem;
+  gap: 10px;
 }
 
 .middle--gallery--grid .item-1 {
