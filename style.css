@@ -18,7 +18,7 @@ header {
   background-color: rgb(139, 139, 222);
 }
 
-.header--banner--nav {
+.header--banner {
   display: flex;
   justify-content: space-between;
   align-items: center;
