@@ -69,7 +69,7 @@ header {
   height: 800px;
 
   object-fit: cover;
-  object-position: top;
+  object-position: bottom;
 
   background-image: url("images/powerlines.JPG");
 }
@@ -114,52 +114,11 @@ header {
   color: #E7E6FF;
 }
 
-.middle--gallery {
+
+.middle--gallery--grid {
   display: grid;
 
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
-}
-
-.middle--gallery .item-1 {
-  grid-column-start: 1;
-  grid-row-start: 1;
-}
-
-.middle--gallery .item-1 .middle--gallery--img1{
-  height: 100px;
-  width: 100px;
-}
-
-
-.middle--gallery .item-2 {
-  grid-column-start: 2;
-  grid-row-start: 1;
-}
-
-.middle--gallery .item-2 .middle--gallery--img2{
-  height: 100px;
-  width: 100px;
-}
-
-
-.middle--gallery .item-3 {
-  grid-column-start: 1;
-  grid-row-start: 12;
-}
-
-.middle--gallery .item-3 .middle--gallery--img3{
-  height: 110px;
-  width: 100px;
-}
-
-
-.middle--gallery .item-4 {
-  grid-column-start: 2;
-  grid-row-start: 2;
-}
-
-.middle--gallery .item-4 .middle--gallery--img4{
-  height: 100px;
-  width: 100px;
+  gap: 1rem;
 }
