@@ -26,7 +26,7 @@ header {
 }
 
 .header--banner--logo {
-  padding: 10px 5px;
+  padding: 10px 10px;
   height: 60px;
 }
 
@@ -62,7 +62,9 @@ header {
   justify-content: center;
 
   width: 1500px;
-  height: 800px;
+  height: 1000px;
+
+  object-fit: cover;
 
   background-image: url("images/powerlines.JPG");
 }
@@ -70,8 +72,8 @@ header {
 
 
 .welcome--box {
-  width: 400px;
-  height: 300px;
+  width: 420px;
+  height: 275px;
   display:flex;
   flex-direction: columns;
   align-self: center;
