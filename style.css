@@ -26,7 +26,7 @@ header {
 }
 
 .header--banner--logo {
-  padding: 5px 5px;
+  padding: 10px 5px;
   height:50px;
 }
 
@@ -39,7 +39,7 @@ header {
 .header--banner--nav ul {
   display: flex;
 
-  gap: 90px;
+  gap: 70px;
   list-style-type: none;
   margin: 0px;
   padding: 10px;
@@ -66,6 +66,8 @@ header {
   width: 400px;
   height: 300px;
   display:flex;
+  flex-direction: columns;
+  align-self: center;
   align-items: center;
   padding: 50px 50px;
 
@@ -74,9 +76,9 @@ header {
 }
 
 .welcome--box--title {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .welcome--box--title{
-
+  font-size: 0.5rem;
 }
