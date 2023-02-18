@@ -40,7 +40,7 @@ header {
 .header--banner--nav ul {
   display: flex;
 
-  gap: 70px;
+  gap: 90px;
   list-style-type: none;
   margin: 0px;
   padding: 10px;
@@ -55,4 +55,21 @@ header {
 
 .header--banner--nav ul li a:hover {
   text-decoration: underline;
+}
+
+.welcome {
+
+}
+
+.welcome--background {
+
+}
+
+.welcome--box {
+  width: 800px;
+  display:flex;
+  align-items: center;
+
+  background-color: #070754;
+  color:#E7E6FF;
 }
