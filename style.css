@@ -14,7 +14,7 @@
 
 header {
   padding: 10px 10px;
-  background-color: #565CAE);
+  background-color: #565CAE;
 }
 
 .header--banner {
@@ -26,8 +26,7 @@ header {
 }
 
 .header--banner--logo {
-  height: 50px;
-  width: 80px;
+
 }
 
 .header--banner--nav {
