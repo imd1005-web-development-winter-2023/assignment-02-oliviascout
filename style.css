@@ -33,6 +33,7 @@ header {
   display: flex;
   justify-content: space-between;
 
+  gap: 30px;
   list-style-type: none;
   margin: 0px;
   padding: 0px;
