@@ -13,6 +13,7 @@
 }
 
 header {
+
 }
 
 .header--banner {
@@ -200,4 +201,32 @@ header {
 
   border: 1px solid black;
   background-color: lightcoral;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+
+  background-color: #75BFCE;
+}
+
+.footer--banner--nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header--banner--nav ul li a {
+  font-size:x-large;
+  font-weight: 600;
+  color: #E7E6FF;
+  text-decoration: none;
+}
+
+.header--banner--nav ul li a:hover {
+  text-decoration: underline;
 }
