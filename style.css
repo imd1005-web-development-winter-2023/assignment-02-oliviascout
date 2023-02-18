@@ -14,7 +14,7 @@
 
 header {
   padding: 10px 10px;
-  background-color: rgb(139, 139, 212);
+  background-color: #565CAE);
 }
 
 .header--banner {
@@ -33,24 +33,22 @@ header {
 .header--banner--nav {
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .header--banner--nav ul {
   display: flex;
-  justify-content: space-between;
 
   gap: 70px;
   list-style-type: none;
   margin: 0px;
-  padding: 0px;
+  padding: 10px;
 }
 
 .header--banner--nav ul li a {
   font-size:x-large;
   font-weight: 600;
-  color:rgb(25, 63, 3);
+  color: #E7E6FF;
   text-decoration: none;
 }
 
