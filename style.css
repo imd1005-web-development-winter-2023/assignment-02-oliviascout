@@ -13,7 +13,6 @@
 }
 
 header {
-  padding: 10px 10px;
 }
 
 .header--banner {
@@ -27,7 +26,8 @@ header {
 }
 
 .header--banner--logo {
-  height:40px;
+  padding: 5px 5px;
+  height:50px;
 }
 
 .header--banner--nav {
@@ -63,11 +63,20 @@ header {
 
 
 .welcome--box {
-  width: 800px;
-  height:800px;
+  width: 400px;
+  height: 300px;
   display:flex;
   align-items: center;
+  padding: 50px 50px;
 
   background-color: #070754;
   color:#E7E6FF;
+}
+
+.welcome--box--title {
+  font-size: 2rem;
+}
+
+.welcome--box--title{
+
 }
