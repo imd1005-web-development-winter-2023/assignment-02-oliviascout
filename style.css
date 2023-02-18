@@ -29,7 +29,8 @@ header {
 }
 
 .header--banner--logo img {
-  height: 20px;
+  height: 40px;
+  width: 40px;
 }
 
 .header--banner--nav ul {
