@@ -104,7 +104,7 @@ header {
 .middle {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-evenly;
 
   height: 700px;
   width: 100%;
@@ -118,7 +118,7 @@ header {
   margin-left: 70px;
   margin-top: 50px;
   width: 15%;
-  height: 200;
+  height: 250;
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
 
@@ -150,6 +150,12 @@ header {
   grid-column-start: 1;
   grid-column-end: 3;
 
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  width:200px;
+  height:200px;
+
   border: 1px solid black;
   background-color: crimson;
 }
@@ -160,6 +166,9 @@ header {
 
   grid-row-start: 1;
   grid-row-end: 4;
+
+  width:200px;
+  height:300px;
 
   border: 1px solid black;
   background-color: chartreuse;
@@ -172,6 +181,9 @@ header {
   grid-row-start: 3;
   grid-row-end: -1;
 
+  width:200px;
+  height:200px;
+
   border: 1px solid black;
   background-color: darkgoldenrod;
 }
@@ -182,6 +194,9 @@ header {
 
   grid-row-start: 4;
   grid-row-end: -1;
+
+  width:200px;
+  height:100px;
 
   border: 1px solid black;
   background-color: lightcoral;
