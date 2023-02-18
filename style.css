@@ -59,8 +59,9 @@ header {
 .welcome {
   display: flex;
   align-items: center;
+  justify-content: center;
 
-  width: 800px;
+  width: 1400px;
   height: 800px;
 
   background-image: url("images/powerlines.JPG");
@@ -75,6 +76,7 @@ header {
   flex-direction: columns;
   align-self: center;
   align-items: center;
+  justify-content: center;
   padding: 20px 20px;
 
   background-color: #070754;
