@@ -73,6 +73,7 @@ header {
   object-position: bottom;
 
   background-image: url("images/powerlines.JPG");
+  background-position: top;
 }
 
 .welcome--box {
