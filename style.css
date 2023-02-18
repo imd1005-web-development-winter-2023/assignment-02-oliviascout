@@ -29,6 +29,13 @@ header {
   width: 60px;
 }
 
+.header--banner--nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
 .header--banner--nav ul {
   display: flex;
   justify-content: space-between;
