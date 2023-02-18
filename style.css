@@ -140,8 +140,7 @@ header {
 .middle--gallery {
   margin-top: 20px;
   margin-right: 100px;
-  height:500px;
-  width: 500px;
+
 }
 
 .middle--gallery--grid {
@@ -149,9 +148,14 @@ header {
   list-style-type: none;
   padding: 5px 5px 5px 5px;
 
+  vertical-align: center;
+
+  height: 500px;
+  width: 500px;
+
   grid-template-columns: repeat(4, 60px);
   grid-template-rows: repeat(4, 60px);
-  gap: 1.5rem;
+  gap: 1.3rem;
 }
 
 .middle--gallery--grid .item-1 {
@@ -229,13 +233,13 @@ header {
   padding: 10px;
 }
 
-.header--banner--nav ul li a {
+.footer--banner--nav ul li a {
   font-size:x-large;
   font-weight: 600;
   color: #E7E6FF;
   text-decoration: none;
 }
 
-.header--banner--nav ul li a:hover {
+.footer--banner--nav ul li a:hover {
   text-decoration: underline;
 }
