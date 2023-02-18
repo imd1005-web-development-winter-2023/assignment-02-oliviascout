@@ -24,6 +24,10 @@ header {
   align-items: center;
 }
 
+.header--banner--logo {
+  height: 20px;
+}
+
 .header--banner--nav ul {
   display: flex;
   gap: 30px;
@@ -31,4 +35,13 @@ header {
   list-style-type: none;
   margin: 0px;
   padding: 0px;
+}
+
+.header--banner--nav ul li a {
+  font-size: large;
+  text-decoration: none;
+}
+
+.header--banner--nav ul li a:hover {
+  text-decoration: underline;
 }
