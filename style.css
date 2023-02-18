@@ -83,6 +83,7 @@ header {
   align-items: center;
   justify-content: center;
   padding: 20px 20px;
+  border-radius: 5px;
 
   background-color: #070754;
   color:#E7E6FF;
@@ -115,6 +116,9 @@ header {
   margin-top: 50px;
   width: 25%;
   padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+
+  text-align: center;
 
   background-color: #070754;
   color: #E7E6FF;
@@ -141,6 +145,7 @@ header {
   grid-column-start: 1;
   grid-column-end: 3;
 
+  border: 1px solid black;
   background-color: crimson;
 }
 
@@ -154,6 +159,7 @@ header {
   grid-row-start: 1;
   grid-row-end: 4;
 
+  border: 1px solid black;
   background-color: chartreuse;
 }
 
@@ -167,6 +173,7 @@ header {
   grid-row-start: 3;
   grid-row-end: -1;
 
+  border: 1px solid black;
   background-color: darkgoldenrod;
 }
 
@@ -180,5 +187,6 @@ header {
   grid-row-start: 4;
   grid-row-end: -1;
 
+  border: 1px solid black;
   background-color: lightcoral;
 }
