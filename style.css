@@ -29,11 +29,6 @@ header {
   width: 60px;
 }
 
-.header--banner--logo img {
-  height: 60px;
-  width: 60px;
-}
-
 .header--banner--nav ul {
   display: flex;
   gap: 30px;
