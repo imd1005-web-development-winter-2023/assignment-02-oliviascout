@@ -25,13 +25,13 @@ header {
 }
 
 .header--banner--logo {
-  height: 30px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
 }
 
 .header--banner--logo img {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
 }
 
 .header--banner--nav ul {
