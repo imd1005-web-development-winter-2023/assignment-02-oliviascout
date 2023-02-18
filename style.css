@@ -1,3 +1,14 @@
 /*
   CSS File
 */
+
+header{
+  padding: 20px 20px;
+  color:brown;
+}
+
+header--nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
