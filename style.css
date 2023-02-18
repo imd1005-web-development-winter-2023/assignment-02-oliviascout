@@ -27,7 +27,7 @@ header {
 
 .header--banner--logo {
   padding: 10px 5px;
-  height:50px;
+  height: 60px;
 }
 
 .header--banner--nav {
@@ -57,7 +57,10 @@ header {
 }
 
 .welcome {
-  background-image: src="images/powerlines.JPG";
+  display: flex;
+  align-items: center;
+
+  background-image: url("images/powerlines.JPG");
 }
 
 
@@ -69,14 +72,14 @@ header {
   flex-direction: columns;
   align-self: center;
   align-items: center;
-  padding: 50px 50px;
+  padding: 20px 20px;
 
   background-color: #070754;
   color:#E7E6FF;
 }
 
 .welcome--box--title {
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .welcome--box--title{
