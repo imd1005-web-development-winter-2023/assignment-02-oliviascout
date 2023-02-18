@@ -2,6 +2,11 @@
   CSS File
 */
 
+.page{
+  min-width: 100%;
+  min-height: 100%;
+}
+
 header{
   padding: 20px 20px;
   color:brown;
@@ -11,4 +16,13 @@ header--nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+header--nav ul{
+  display: flex;
+  gap: 30px;
+
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
 }
