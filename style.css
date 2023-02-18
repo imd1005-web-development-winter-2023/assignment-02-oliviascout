@@ -124,6 +124,7 @@ header {
   border-radius: 5px;
 
   text-align: center;
+  vertical-align: center;
 
   background-color: #070754;
   color: #E7E6FF;
@@ -133,25 +134,23 @@ header {
 .middle--button p {
   align-self: center;
   vertical-align: center;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 
 .middle--gallery {
   margin-top: 20px;
   margin-right: 50px;
-  width: 45%;
+  width: 500px;
 }
 
 .middle--gallery--grid {
   display: grid;
   list-style-type: none;
-  align-content: center;
-  vertical-align: center;
   padding: 5px 5px 5px 5px;
 
   grid-template-columns: repeat(4, 60px);
   grid-template-rows: repeat(4, 60px);
-  gap: 2rem;
+  gap: 1.5rem;
 }
 
 .middle--gallery--grid .item-1 {
@@ -217,6 +216,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer--banner--nav ul {
