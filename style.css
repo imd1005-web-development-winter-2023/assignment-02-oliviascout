@@ -57,15 +57,14 @@ header {
 }
 
 .welcome {
-
+  background-image: src="images/powerlines.JPG";
 }
 
-.welcome--background {
 
-}
 
 .welcome--box {
   width: 800px;
+  height:800px;
   display:flex;
   align-items: center;
 
