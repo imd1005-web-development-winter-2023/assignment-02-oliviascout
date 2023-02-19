@@ -13,7 +13,8 @@
 }
 
 header {
-
+  /*empty*/
+  background-color: #565CAE;
 }
 
 .header--banner {
@@ -23,12 +24,17 @@ header {
   align-items: stretch;
   justify-content: space-between;
 
+  min-width: 100%;
+  height: 100px;
+
   background-color: #565CAE;
 }
 
 .header--banner--logo {
-  padding: 10px 10px;
-  height: 60px;
+  padding: 10px 20px;
+  height: 100px;
+
+  vertical-align: center;
 }
 
 .header--banner--nav {
@@ -69,6 +75,7 @@ header {
   width: 100%;
   height: 800px;
 
+  /*background image*/
   object-fit: cover;
   object-position: bottom;
 
@@ -153,7 +160,7 @@ header {
 
   vertical-align: center;
 
-  grid-template-columns: repeat(4, 200px);
+  grid-template-columns: repeat(4, 250px);
   grid-template-rows: repeat(4, 100px);
   gap: 1.3rem;
 }
@@ -216,10 +223,10 @@ header {
 }
 
 .bottom--image {
-  padding: 10px 10px;
   height: 500px;
 
-  margin: 100px;
+  margin-left: 100px;
+  margin-top: 50px;
   vertical-align: center;
 }
 
@@ -240,14 +247,16 @@ header {
 }
 
 .bottom--button p {
+  margin-top: 45px;
   align-self: center;
   vertical-align: center;
-  margin-top: 60px;
 }
 
 
 .footer {
+ /*empty*/
 
+ background-color: #75BFCE;
 }
 
 .footer--banner {
