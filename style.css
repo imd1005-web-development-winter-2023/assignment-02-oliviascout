@@ -42,8 +42,8 @@ header {
 
   gap: 70px;
   list-style-type: none;
-  margin: 0px;
-  padding: 10px;
+  margin: 10px;
+  padding: 20px;
   padding-left: 20px;
 }
 
@@ -217,10 +217,10 @@ header {
 
 .bottom--image {
   padding: 10px 10px;
-  height: 60px;
+  height: 400px;
 }
 
-.middle--button {
+.bottom--button {
   margin-right: 300px;
   margin-top: 200px;
   width: 15%;
