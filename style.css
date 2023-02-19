@@ -143,8 +143,8 @@ header {
   margin-right: 5%;
 
   vertical-align: center;
-  height: 700px;
-  width: 700px;
+  height: 500px;
+  width: 500px;
 
 }
 
@@ -156,7 +156,7 @@ header {
   vertical-align: center;
 
   height: 800px;
-  width: 1000px;
+  width: 1100px;
 
   grid-template-columns: repeat(4, 100px);
   grid-template-rows: repeat(4, 100px);
