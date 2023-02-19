@@ -154,7 +154,7 @@ header {
   vertical-align: center;
 
   grid-template-columns: repeat(4, 200px);
-  grid-template-rows: repeat(4, 200px);
+  grid-template-rows: repeat(4, 100px);
   gap: 1.3rem;
 }
 
@@ -200,6 +200,40 @@ header {
 
   border: 1px solid black;
   background-color: rgb(146, 26, 66);
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 600px;
+  width: 100%;
+
+  margin: 0px;
+
+  background-color: #6480CB;
+}
+
+.bottom--image {
+  padding: 10px 10px;
+  height: 60px;
+}
+
+.middle--button {
+  margin-right: 300px;
+  margin-top: 200px;
+  width: 15%;
+  height: 200px;
+  padding: 20px 10px 10px 10px;
+  border-radius: 5px;
+
+  text-align: center;
+  vertical-align: center;
+
+  background-color: #070754;
+  color: #E7E6FF;
+  font-size: 1.5rem;
 }
 
 
