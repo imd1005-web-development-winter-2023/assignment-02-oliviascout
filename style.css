@@ -273,7 +273,7 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .footer--banner--nav ul {
@@ -295,4 +295,41 @@ header {
 
 .footer--banner--nav ul li a:hover {
   text-decoration: underline;
+}
+
+.footer--banner--socials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center;
+}
+
+.footer--banner--socials ul {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 70px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+.footer--banner--socials ul li a {
+  font-size:x-large;
+  font-weight: 600;
+  color: #E7E6FF;
+  text-decoration: none;
+}
+
+.footer--banner--twt {
+  height: 50px;
+}
+
+.footer--banner--face {
+  height: 50px;
+}
+
+.footer--banner--insta {
+  height: 50px;
 }
