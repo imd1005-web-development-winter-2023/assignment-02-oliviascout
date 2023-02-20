@@ -1,3 +1,373 @@
 /*
   CSS File
 */
+
+/*page stuff*/
+.page {
+  min-width: 100%;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+
+header {
+  /*empty*/
+  background-color: #565CAE;
+}
+
+/*top banner*/
+.header--banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+
+  min-width: 100%;
+  height: 100px;
+
+  background-color: #565CAE;
+}
+
+/*logo*/
+.header--banner--logo {
+  padding: 10px 20px;
+  height: 100px;
+
+  vertical-align: center;
+}
+
+/*nav link stuff*/
+.header--banner--nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header--banner--nav ul {
+  display: flex;
+
+  gap: 70px;
+  list-style-type: none;
+  margin: 10px;
+  padding: 20px;
+  padding-left: 20px;
+}
+
+.header--banner--nav ul li a {
+  font-size:x-large;
+  font-weight: 600;
+  color: #E7E6FF;
+  text-decoration: none;
+}
+
+.header--banner--nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+/*first 'area', box over background*/
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+
+  width: 100%;
+  height: 800px;
+
+  /*background image*/
+  object-fit: cover;
+  object-position: bottom;
+
+  background-image: url("images/powerlines.JPG");
+  background-position: bottom;
+}
+
+/*box in middle*/
+.welcome--box {
+  width: 420px;
+  height: 275px;
+  display:flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+  border-radius: 5px;
+
+  background-color: #070754;
+  color:#E7E6FF;
+}
+
+.welcome--box--text h2 {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.welcome--box--text p {
+  text-align: center;
+  font-size: 1rem;
+}
+
+
+/*second area, grid with gallery examples*/
+.middle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 600px;
+  width: 100%;
+
+  margin: 0px;
+
+  background-color: #565CAE;
+}
+
+/*side button*/
+.middle--button {
+  margin-left: 300px;
+  margin-top: 200px;
+  width: 15%;
+  height: 200px;
+  padding: 20px 10px 10px 10px;
+  border-radius: 5px;
+
+  text-align: center;
+  vertical-align: center;
+
+  background-color: #070754;
+  color: #E7E6FF;
+  font-size: 1.5rem;
+}
+
+.middle--button p {
+  align-self: center;
+  vertical-align: center;
+  margin-top: 60px;
+}
+
+/*grid stuff*/
+.middle--gallery {
+  margin-top: 20px;
+  margin-right: 5%;
+
+  vertical-align: center;
+}
+
+.middle--gallery--grid {
+  display: grid;
+  list-style-type: none;
+  padding: 5px 5px 5px 5px;
+
+  vertical-align: center;
+
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(4, 120px);
+  gap: 1rem;
+}
+
+.middle--gallery--grid .item-1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  background-color: crimson;
+}
+
+.middle--gallery--grid .item-1 .img-1 {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.middle--gallery--grid .item-2 {
+  grid-column-start: 3;
+  grid-column-end: -1;
+
+  grid-row-start: 1;
+  grid-row-end: 3;
+
+  background-color: chartreuse;
+}
+
+.middle--gallery--grid .item-2 .img-2 {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.middle--gallery--grid .item-3 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+
+  grid-row-start: 3;
+  grid-row-end: -1;
+
+  background-color: sandybrown;
+}
+
+.middle--gallery--grid .item-3 .img-3 {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.middle--gallery--grid .item-4 {
+  grid-column-start: 3;
+  grid-column-end: -1;
+
+  grid-row-start: 3;
+  grid-row-end: -1;
+
+  background-color: rgb(146, 26, 66);
+}
+
+.middle--gallery--grid .item-4 .img-4 {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+/*last area, 'check out our packages' box*/
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  height: 600px;
+  width: 100%;
+
+  margin: 0px;
+
+  background-color: #6480CB;
+}
+
+/*image to left*/
+.bottom--image {
+  height: 500px;
+
+  margin-left: 100px;
+  margin-top: 50px;
+  vertical-align: center;
+}
+
+/*button stuff*/
+.bottom--button {
+  margin-right: 300px;
+  margin-top: 200px;
+  width: 15%;
+  height: 200px;
+  padding: 20px 10px 10px 10px;
+  border-radius: 5px;
+
+  text-align: center;
+  vertical-align: center;
+
+  background-color: #070754;
+  color: #E7E6FF;
+  font-size: 1.5rem;
+}
+
+.bottom--button p {
+  margin-top: 45px;
+  align-self: center;
+  vertical-align: center;
+}
+
+
+/*bottom banner*/
+.footer {
+ /*empty*/
+
+ background-color: #75BFCE;
+}
+
+.footer--banner {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-between;
+
+  background-color: #75BFCE;
+}
+
+/*text links*/
+.footer--banner--nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer--banner--nav ul {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 70px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+.footer--banner--nav ul li a {
+  font-size:x-large;
+  font-weight: 600;
+  color: #E7E6FF;
+  text-decoration: none;
+}
+
+.footer--banner--nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/*social media icons*/
+.footer--banner--socials {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: center;
+}
+
+.footer--banner--socials ul {
+  display: flex;
+  justify-content: space-between;
+
+  gap: 70px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 10px;
+}
+
+.footer--banner--socials ul li a {
+  font-size:x-large;
+  font-weight: 600;
+  color: #E7E6FF;
+  text-decoration: none;
+}
+
+.footer--banner--twt {
+  height: 40px;
+}
+
+.footer--banner--face {
+  height: 40px;
+}
+
+.footer--banner--insta {
+  height: 40px;
+}
