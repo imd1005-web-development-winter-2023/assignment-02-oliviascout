@@ -93,7 +93,7 @@ header {
   width: 420px;
   height: 275px;
   display:flex;
-  flex-direction: columns;
+  flex-direction: column;
   align-self: center;
   align-items: center;
   justify-content: center;
